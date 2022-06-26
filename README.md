@@ -1,2 +1,3 @@
-# Desafio-de-Projeto-1
-Conteúdo que aprendi sobre Git/Github no bootcamp da Dio.
+# Desafio de Projeto sobre Git/Github da DIO.
+
+Neste projeto vou fazer uma breve apresentação do Git e Github e alguns comandos básicos.
