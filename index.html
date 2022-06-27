@@ -28,11 +28,11 @@
         <!--==== MENU ====-->
         <div class="menu">
           <ul class="grid">
-            <li><a class="title" href="#about-git1">Introdução ao Git</a></li>
+            <li><a class="title" href="#about-git1">Introdução ao Git e Github</a></li>
             <li><a class="title" href="#about-git2">Instalação do Git</a></li>
-            <li><a class="title" href="#about-git3">Comandos Básicos</a></li>
-            <li><a class="title" href="#about-github1">Introdução ao Github</a></li>
-            <li><a class="title" href="#about-github2">Para que Serve o Github</a></li>
+            <li><a class="title" href="#about-git3">Criando um repositório Git local e comitando</a></li>
+            <li><a class="title" href="#about-git4">Compartilhando no Github</a></li>
+            <li><a class="title" href="#about-git5">Criando o primeiro repositório remoto</a></li>
           </ul>
         </div> 
         <!--==== MENU ====-->
@@ -56,40 +56,51 @@
             <h2 class="title">O que é o Git?</h2>
             <p>Criado pelo engenheiro de software Linus Torvalds, conhecido por ter
           desenvolvido, também, o núcleo Linux, o GIT é um Sistema de Controle de
-          Versões Distribuído — ou DVCS. Estes sistemas de controle possuem a função
+          Versões Distribuído — ou DVCS.</p>
+          <p>Estes sistemas de controle possuem a função
           de registrar quaisquer alterações feitas em cima de um código, armazenando
           essas informações e permitindo que, caso seja necessário, um(a)
           programador(a) possa regredir a versões anteriores de uma aplicação de
-          modo simples e rápido. Este tipo de sistema também simplifica muito o
+          modo simples e rápido.</p> 
+          <p>Este tipo de sistema também simplifica muito o
           processo de compartilhamento de um projeto com um time, por exemplo, ou
           com outros(as) programadores(as).
-            </p>            
-          </div>
-          
-          <div class="text-2">
+            </p> 
             <h2 class="title" class="git2">Qual a vantagem de usar o Git?</h2>
-            <p>
-              Imagine que, há alguns meses, você desenvolveu um site que possuia
-              determinada função. Com o passar do tempo, essa função perdeu sua
-              utilidade e você foi instruído a retirá-la do código fonte deste site.
-              Após seis meses, por uma questão de estratégia de negócio, essa função
-              deve ser novamente implementada. Para programadores(as) que utilizam o
-              GIT, reincluir a funcionalidade é uma tarefa simples: basta buscar, em seu
-              repositório, a versão que a contempla e retomá-la. Para aqueles(as) que
-              não utilizam, talvez seja necessário reescrever o código desta função,
-              consumindo novamente o tempo gasto para desenvolvê-la da primeira vez.
-              Diante desta situação, podemos concluir que uma das maiores vantagens de
+            <p>Imagine que, há alguns meses, você desenvolveu um site que possuia
+              determinada função.</p>
+              <p>Com o passar do tempo, essa função perdeu sua
+              utilidade e você foi instruído a retirá-la do código fonte deste site.</p>
+              <p>Após seis meses, por uma questão de estratégia de negócio, essa função
+              deve ser novamente implementada.</p>
+              <p>Para programadores(as) que utilizam o GIT, reincluir a funcionalidade 
+              é uma tarefa simples: basta buscar, em seu repositório, a versão que a
+              contempla e retomá-la.</p> 
+              <p>Para aqueles(as) que não utilizam, talvez seja necessário reescrever o código desta função,
+              consumindo novamente o tempo gasto para desenvolvê-la da primeira vez.</p>
+              <p>Diante desta situação, podemos concluir que uma das maiores vantagens de
               usar o GIT é a economia de tempo e recursos, uma vez que a consulta de
               diferentes versões de uma mesma aplicação é muito recorrente no trabalho
-              do(a) programador(a). Outro grande benefício do GIT é justamente o fato de
-              ele ser um sistema distribuído. Isso significa que, diferentemente de
+              do(a) programador(a).</p>
+              <p>Outro grande benefício do GIT é justamente o fato de
+              ele ser um sistema distribuído.</p>
+              <p>Isso significa que, diferentemente de
               outros sistemas de controle de versionamento populares na época em que foi
               lançado, o GIT possui repositórios, e não somente um único local com o
-              histórico de seu trabalho. Para auxiliar o trabalho em equipe, recursos
+              histórico de seu trabalho.</p>
+              <p>Para auxiliar o trabalho em equipe, recursos
               como o fluxo de desenvolvimento do Gitflow também trazem muitos
               benefícios, inclusive porque pode ser acessado por qualquer membro do time
-              em qualquer lugar.</p>
-            </div>
+              em qualquer lugar.</p>           
+
+          <h2>O que é o GitHub?</h2>
+          <p>O GitHub, tão famoso entre a comunidade de programadores de todo o mundo, é uma espécie de rede social voltada a profissionais de TI cuja tecnologia que o sustenta é o GIT.</p>
+          <p>Em outras palavras, GitHub é uma plataforma totalmente online onde você pode criar repositórios e hospedar neles seus projetos, colaborar com softwares open source, seguir outros(as) programadores(as) e interagir com códigos de terceiros.</p>
+          <p>O GitHub armazena todos estes dados em uma nuvem e você pode acessá-los de onde estiver: basta logar-se no site em qualquer navegador.</p>
+          <h2>Para que serve o Github?</h2>
+          <p>O GitHub serve, fundamentalmente, para facilitar o controle de versões de um software ou aplicação.</p>
+          <p>As diferenças entre ele e o GIT estão nas interações proporcionadas pelo GitHub: funcionando de modo semelhante à uma rede social, o GitHub é hoje um dos maiores pontos de encontro virtuais entre programadores de todo o mundo.</p>
+          <p>Ele é, também, o maior repositório de softwares de código aberto de toda a internet, tendo, inclusive, como um de seus maiores colaboradores quando o assunto é open source a gigante Microsoft.</p>
         </div>
       </section>
 
@@ -105,7 +116,7 @@
           </div>
           <div class="text">
             <h2 class="title">Instalação do Git no Windows</h2>
-            <p>No site oficial do Git (http://git-scm.com/) clique em “Downloads for Windows”.</p>
+            <p>No site oficial do Git (<a href="http://git-scm.com/">http://git-scm.com/</a>) clique em “Downloads for Windows”.</p>
             <img
               src="img/passo-1.PNG"
               alt="git-windows-passo-1"
@@ -115,39 +126,167 @@
             src="img/passo2.webp"
             alt="git-windows-passo-2"
           />
-            <p>Em especial eu marco as opções em “Windows Explorer integration”, assim eu consigo abrir o prompt de comandos do Git (Git Bash) em qualquer pasta, basta clicar com o botão direito e “Git Bash Here”. A última opção também é interessante, porque ele instala uma fonte melhorzinha para o prompt de comandos.
+            <p>Em especial eu marco as opções em “Windows Explorer integration”, assim eu consigo abrir o prompt de comandos do Git (Git Bash) em qualquer pasta, basta clicar com o botão direito e “Git Bash Here”. A última opção também é interessante, porque ele instala uma fonte melhorzinha para o prompt de comandos.</p>
 
-              Nota: O Git para Windows vem com um prompt de comandos próprio (o Git Bash), que além dos comandos git também fornece alguns comandos Unix que podem ser bem úteis (além de ser bem mais bonitinho que o prompt de comandos padrão do Windows).
+              <p>Nota: O Git para Windows vem com um prompt de comandos próprio (o Git Bash), que além dos comandos git também fornece alguns comandos Unix que podem ser bem úteis (além de ser bem mais bonitinho que o prompt de comandos padrão do Windows).</p>
               
-              Na próxima tela, eu escolho a opção: “Use Git from the Windows Command Prompt”.</p>
+              <p>Na próxima tela, eu escolho a opção: “Use Git from the Windows Command Prompt”.</p>
             <img
             src="img/passo-3.webp"
             alt="git-windows-passo-3"
           />
             <p>Esta opção permite usar o comando git tanto no Git Bash quanto no terminal padrão do Windows.
 
-              A terceira adiciona comandos do Unix no terminal do Windows, além do próprio comando git, mas alguns comandos do Windows serão substituídos por comandos Unix que tem o mesmo nome (como find e sort).
+              <p>A terceira adiciona comandos do Unix no terminal do Windows, além do próprio comando git, mas alguns comandos do Windows serão substituídos por comandos Unix que tem o mesmo nome (como find e sort).</p>
               
-              Outra configuração importante: quebra de linhas.</p>
+              <p>Outra configuração importante: quebra de linhas.</p>
               <img
               src="img/passo-4.webp"
               alt="git-windows-passo-4"
           />
-              <p>Como deve saber Windows e sistemas Unix (Linux, Mac) possuem formatos diferentes de quebra de linha em arquivos texto. Se você escreve um código com quebras de linha no formato Windows, outra pessoa pode ter problemas ao abrir o mesmo arquivo em um Linux, e vice-versa. Esta opção permite normalizar isso.
+              <p>Como deve saber Windows e sistemas Unix (Linux, Mac) possuem formatos diferentes de quebra de linha em arquivos texto. Se você escreve um código com quebras de linha no formato Windows, outra pessoa pode ter problemas ao abrir o mesmo arquivo em um Linux, e vice-versa. Esta opção permite normalizar isso.</p>
 
-                A primeira opção converte os arquivos para padrão Windows quando os arquivos chegam para você, e convertem para padrão Unix quando você os comita no repositório. A segunda não faz nenhuma conversão quando os arquivos chegam, mas convertem para padrão Unix quando você comita. Já a terceira opção não faz nenhuma conversão.
+                <p>A primeira opção converte os arquivos para padrão Windows quando os arquivos chegam para você, e convertem para padrão Unix quando você os comita no repositório. A segunda não faz nenhuma conversão quando os arquivos chegam, mas convertem para padrão Unix quando você comita. Já a terceira opção não faz nenhuma conversão.</p>
                 
-                Eu opto pela segunda, pois prefiro manter tudo no padrão Unix (já que qualquer bom editor de código consegue ler arquivos no padrão Unix mesmo estando em Windows).
+                <p>Eu opto pela segunda, pois prefiro manter tudo no padrão Unix (já que qualquer bom editor de código consegue ler arquivos no padrão Unix mesmo estando em Windows).</p>
                 
-                Feito isso, “Next”, “Finish” e o Git está instalado.</p>
+                <p>Feito isso, “Next”, “Finish” e o Git está instalado.</p>
           </div>
         </div>
 
-      <section class="section" id="about-git3">
-        <div class="container grid">Serviços</div>
-      </section> 
-    </main>
+        <div class="divider-1"></div>
 
+      <section class="section" id="about-git3">
+        <div class="container grid">
+        <div class="image">
+          <img
+            src="img/commit.png"
+            alt="commit"
+          />
+        </div>
+        <h2>Criando um repositório Git local e comitando</h2>
+        <div class="text">
+        <p>Vamos testar? Crie uma pasta, botão direito nela e “Git Bash Here”.</p>
+        <img
+            src="img/git-commit-1.webp"
+            alt="commit"
+          />
+          <p>Antes de mais nada, informe ao Git os seus dados, que irão identificar seus commits. Digite os comandos:</p>
+          <img
+            src="img/git-commit-2.PNG"
+            alt="commit"
+          />
+          <p>Dica: para copiar e colar comandos no Git Bash, clique com o botão direito na tela do terminal.</p>
+          <p>Agora vamos inicializar um repositório Git nesta pasta que estamos.</p>
+          <img
+            src="img/git-commit-3.PNG"
+            alt="commit"
+          />
+          <img
+          src="img/git-commit-4.webp"
+          alt="commit"
+        />
+          <p>Viu esse (master) que apareceu na linha de comando? Ele indica que você está em um repositório Git, na branch master. Xique, hein?</p>
+          <p>Vamos adicionar um arquivo neste repositório que está vazio e comitá-lo. Veja a sequência de comandos:</p>
+          <img
+          src="img/git-commit-5.PNG"
+          alt="commit"
+        />
+        <p>Primeiro criamos um arquivo teste.txt vazio. Depois adicionamos todos os novos arquivos (no caso só o teste.txt) ao índice do repositório, e por último comitamos todos os arquivos que estão no índice e foram modificados.</p>
+      </div>
+      </div>
+      </section> 
+
+      <div class="divider-1"></div>
+    
+    <section class="section" id="about-git4">
+      <div class="container grid">
+      <div class="image">
+        <img
+          src="img/git-github.png"
+          alt="git-github"
+        />
+      </div>
+      <h2>Compartilhando no Github</h2>
+      <div class="text">
+      <p>Legal, você tem um repositório Git na sua máquina, mas que tal compartilhar seus códigos no GitHub e usufruir de tudo que essa comunidade tem para oferecer?</p>
+      <h3>Preparação Inicial</h3>
+      <p>Vá em <a href="https://github.com/">https://github.com/</a> e clique em “Sign Up” para criar sua conta gratuita.</p>
+      <p>Tendo cadastrado e logado em sua conta, agora você precisa de uma chave SSH para poder começar a comitar. No Git Bash digite:</p>
+      <img
+          src="img/share-github-1.PNG"
+          alt="share-github-1"
+        />
+        <p>Informe no comando seu e-mail cadastrado no GitHub. Dê Enter na próxima pergunta (sobre o arquivo a ser criado — vamos deixar o padrão).</p>
+        <p>A próxima pergunta vai te pedir uma senha (passphrase). Invente uma senha e a informe. Ele vai pedir uma confirmação. Digite a senha novamente e Enter. Digite agora:</p>
+        <img
+          src="img/share-github-2.webp"
+          alt="share-github-2"
+        />
+        <p>para abrir no Bloco de Notas o arquivo que foi criado.</p>
+        <p>Agora no GitHub, vá em “Settings” e depois “SSH and GPG Keys”. Clique “New SSH key”. Informe um título para identificar o computador onde a a chave foi gerada e no campo “Key” cole todo o conteúdo do arquivo id_rsa.pub (que você abriu no Bloco de Notas)</p>
+        <img
+          src="img/share-github-3.PNG"
+          alt="share-github-3"
+        />
+        <p>Tome cuidado de copiar e colar todo o conteúdo do arquivo, começando por “ssh-rsa …” até o seu e-mail (incluindo ele, como na imagem). Clique em “Add Key”.</p>
+        <p>Vamos testar pra ver se essa bagaça deu certo. No Git Bash digite:</p>
+        <img
+        src="img/share-github-4.PNG"
+        alt="share-github-4"
+      />
+        <p>Ele vai perguntar se você tem certeza que quer conectar bla bla bla (yes/no). Digite yes e Enter. Na próxima pergunta (Enter passphrase…) informe sua senha (a que você escolheu ao criar a chave SSH).</p>
+        <p>Se você receber uma mensagem do tipo:</p>
+        <img
+        src="img/share-github-5.PNG"
+        alt="share-github-5"
+      />
+      <p>Então tudo deu certo!</p>
+    </div>
+    </div>
+    </section> 
+
+    <div class="divider-1"></div>
+    
+    <section class="section" id="about-git5">
+      <div class="container grid">
+      <div class="image">
+        <img
+          src="img/git-github.png"
+          alt="git-github"
+        />
+      </div>
+      <h2>Criando o primeiro repositório remoto</h2>
+      <div class="text">
+      <p>No GitHub vamos criar um novo repositório (botão “New Repository” no seu dashboard). Informe um nome sem espaços e caracteres especiais. As outras opções não precisa alterar.</p>
+      <img
+          src="img/first-repository-git.webp"
+          alt="first-repository-git"
+        />
+        <p>Você cairá na página do seu repositório, que por enquanto ainda não tem arquivos.</p>
+        <p>Importante! Se o e-mail informado ao Git no início do passo 2 não for o mesmo usado para se cadastrar no GitHub, refaça o comando informando o e-mail cadastrado. Assim o GitHub vai poder ligar os commits à sua conta.</p>
+        <p>No Git Bash (na pasta do seu repositório local) digite:</p>
+        <img
+          src="img/first-repository-git-2.PNG"
+          alt="first-repository-git-2"
+        />
+        <p>Note que login/repositorio deve ser digitado como aparece na URL do seu repositório, no exemplo:</p>
+        <p><a href="https://github.com/doug2k1/projeto-tutorial">https://github.com/doug2k1/projeto-tutorial</a></p>
+        <p>Agora para atualizar o GitHub com o que está no seu repositório local, digite:</p>
+        <img
+          src="img/first-repository-git-3.PNG"
+          alt="first-repository-git-3"
+        />
+        <p>Informe a sua senha (da chave SSH) quando pedido.</p>
+        <p>Recarregue a página do seu repositório e agora, ao invés da mensagem inicial, você verá seus commits e arquivos.</p>
+        <img
+        src="img/first-repository-git-4.webp"
+        alt="first-repository-git-4"
+      />
+    </div>
+    </div>
+    </section> 
+  </main>
     <script src="main.js"></script>
   </body>
 </html>

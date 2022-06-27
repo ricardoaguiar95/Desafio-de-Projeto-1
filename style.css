@@ -216,7 +216,7 @@ nav.show
 
 #about-git1 .image img {
   position: relative;
-  width: 15%;
+  width:50%;
 }
 
 #about-git1 .text-1 h2 {
@@ -252,6 +252,33 @@ nav.show
 }
 
 #about-git2 .text p {
+  padding-top: 1.25rem;
+  margin-bottom: 2rem;
+  text-align: left;
+
+}
+
+#about-git3 .text  {
+  padding-top: 1.50rem;
+  margin-bottom: 2rem;
+  text-align: left;
+
+}
+
+#about-git3 h2 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+#about-git3 .text img {
+  max-width: 70%;
+  margin-left: 18%;
+  margin-right: 18%;
+  
+}
+
+#about-git3 .text p {
   padding-top: 1.25rem;
   margin-bottom: 2rem;
   text-align: left;
