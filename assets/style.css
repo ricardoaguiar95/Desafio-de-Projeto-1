@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?jqu5vg');
+  src:  url('fonts/icomoon.eot?jqu5vg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?jqu5vg') format('truetype'),
+    url('fonts/icomoon.woff?jqu5vg') format('woff'),
+    url('fonts/icomoon.svg?jqu5vg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-multimedia_puzzle_multimedia_interface_toy_piece_multimedia_toy_puzzle_piece_multimedia_toy_puzzle_piece_multimedia_toy_puzzle_piece_piece_puzzle_toy:before {
+  content: "\e900";
+}
+.icon-photo_media_multimedia_photography_photo_camera_image_image_camera_photo_photography_multimedia_media_image_camera_photo_photography_multimedia_media_image_camera_photo_photography_multimedia_media_photography_image_media_interface_multimedi:before {
+  content: "\e901";
+}
+.icon-multimedia_folder_multimedia_file_document_interface_file_document_multimedia_folder_interface_multimedia_document_folder_interface_multimedia_document_folder_document_folder_multimedia_document_folder_folder_document_multimedia:before {
+  content: "\e902";
+}
+.icon-folder_folder_document_multimedia_interface_file_document_folder_interface_multimedia_folder_interface_document_multimedia_document_multimedia_folder_document_multimedia_folder_document_multimedia_multimedia_document_file_folder:before {
+  content: "\e903";
+}
+.icon-tab_multimedia_book_bookmark_tab_interface_media_multimedia_media_bookmark_interface_tab_book_multimedia_tab_media_book_bookmark_media_tab_multimedia_book_bookmark_multimedia_media_book_bookmark_bookmark_book_multimedia_tab_media:before {
+  content: "\e904";
+}
+.icon-volume_sound_multimedia_volume_multimedia_interface_speaker_multimedia_volume_sound_speaker_multimedia_volume_sound_speaker_sound_speaker_multimedia_volume_sound_speaker:before {
+  content: "\e905";
+}
+.icon-media_speaker_volume_volume_speaker_sound_media_multimedia_music_sound_speaker_volume_multimedia_music_media_sound_speaker_volume_multimedia_music_media_multimedia_sound_music_sound_volume_multimedia_speaker_interface_media_music:before {
+  content: "\e906";
+}
+.icon-multimedia_book_reading_multimedia_multimedia_book_reading_book_book_reading_multimedia_reading_multimedia_reading_book_interface:before {
+  content: "\e907";
+}
+.icon-airplane_airplane_multimedia_paper-airplane_send_plane_interface_multimedia_airplane_send_paper-airplane_plane_multimedia_airplane_send_paper-airplane_plane_multimedia_airplane_send_paper-airplane_plane_plane_paper-airplane_send_multimedia:before {
+  content: "\e908";
+}
+.icon-lock_multimedia_open_interface_security_protection_multimedia_open_protection_security_lock_multimedia_open_protection_security_lock_multimedia_open_protection_security_lock_lock_security_protection_open_multimedia:before {
+  content: "\e909";
+}
+.icon-lock_protection_close_multimedia_security_lock_lock_security_close_protection_multimedia_security_protection_multimedia_close_lock_security_multimedia_close_protection_protection_security_interface_lock_multimedia_close:before {
+  content: "\e90a";
+}
+.icon-interface_trash_multimedia_trash_basket_multimedia_basket_trash_trash_basket_multimedia_multimedia_trash_basket_interface_multimedia_basket_trash_basket_multimedia:before {
+  content: "\e90b";
+}
+.icon-multimedia_multimedia_upload_multimedia_multimedia_interface_upload_upload_upload_multimedia_upload:before {
+  content: "\e90c";
+}
+.icon-pc_monitor_screen_pc_computer_multimedia_multimedia_computer_pc_screen_monitor_multimedia_computer_pc_screen_monitor_computer_pc_multimedia_screen_monitor_screen_interface_monitor_computer_multimedia:before {
+  content: "\e90d";
+}
+.icon-multimedia_multimedia_link_linked_chain_interface_chain_linked_link_multimedia_interface_linked_link_multimedia_linked_link_chain_chain_link_linked_multimedia_chain_link_linked_multimedia_chain:before {
+  content: "\e90e";
+}
+.icon-download_multimedia_cloud_download_download_cloud_multimedia_download_cloud_multimedia_download_cloud_multimedia_interface_cloud_multimedia:before {
+  content: "\e90f";
+}
+.icon-multimedia_upload_cloud_multimedia_cloud_upload_multimedia_cloud_cloud_multimedia_upload_multimedia_cloud_upload_upload:before {
+  content: "\e910";
+}
+.icon-weather_multimedia_cloudy_cloud_weather_multimedia_cloudy_cloud_weather_cloud_interface_weather_cloudy_multimedia_multimedia_multimedia_weather_cloud_cloudy_cloudy_cloud:before {
+  content: "\e911";
+}
+.icon-copy_multimedia_file_paper_interface_document_copy_multimedia_file_paper_document_paper_multimedia_file_document_copy_copy_document_paper_copy_multimedia_file_multimedia_copy_document_paper_file_multimedia_paper_document_file_interface:before {
+  content: "\e912";
+}
+.icon-stats_statistics_multimedia_stats_pie-chart_pie-chart_stats_multimedia_statistics_pie-chart_stats_multimedia_statistics_pie-chart_multimedia_statistics_statistics_interface_multimedia_stats_pie-chart_interface_pie-chart_stats_statistics_mult:before {
+  content: "\e913";
+}
+.icon-multimedia_print_multimedia_printer_copy_printer_print_copy_copy_print_multimedia_printer_copy_print_multimedia_copy_interface_printer_multimedia_print_printer:before {
+  content: "\e914";
+}
+.icon-speak_heart_like_speak_multimedia_heart_bobble_heart_like_multimedia_bobble_speak_heart_like_multimedia_bobble_speak_bobble_multimedia_like_heart_interface_speak_bobble_like_multimedia:before {
+  content: "\e915";
+}
+.icon-shop_package_interface_multimedia_package_shop_multimedia_package_shop_multimedia_package_shop_shop_package_multimedia_multimedia_pack_package_interface_shop_multimedia:before {
+  content: "\e916";
+}
+.icon-multimedia_multimedia_bobble_speak_interface_bubble_chat_multimedia_chat_speak_bobble_bubble_chat_speak_bobble_bubble_multimedia_chat_speak_bobble_bubble_bubble_bobble_speak_chat_multimedia:before {
+  content: "\e917";
+}
+.icon-cross_delite_error_multimedia_cross_cross_multimedia_error_delite_multimedia_cross_error_interface_delite_delite_error_multimedia_cross_delite_error_multimedia:before {
+  content: "\e918";
+}
+.icon-refresh_media_multimedia_arrows_refresh_refresh_arrows_multimedia_media_multimedia_refresh_interface_media_arrows_media_multimedia_arrows_refresh_media_multimedia_arrows:before {
+  content: "\e919";
+}
+.icon-media_menu_multimedia_bars_media_bars_media_interface_multimedia_menu_menu_media_bars_multimedia_menu_media_bars_multimedia_menu_multimedia_bars:before {
+  content: "\e91a";
+}
+.icon-multimedia_spectacles_glasses_eyeglasses_multimedia_eyeglasses_glasses_spectacles_multimedia_eyeglasses_glasses_spectacles_multimedia_eyeglasses_glasses_spectacles_interface_multimedia_eyeglasses_spectacles_glasses_spectacles_interface_glass:before {
+  content: "\e91b";
+}
+.icon-music_audio_note_interface_sound_music_multimedia_note_music_multimedia_sound_note_multimedia_audio_music_sound_note_note_audio_sound_music_multimedia_audio_multimedia_audio_sound:before {
+  content: "\e91c";
+}
+.icon-document_document_multimedia_interface_file_document_multimedia_interface_download_file_multimedia_download_document_file_multimedia_download_document_file_multimedia_download_download_multimedia_file_file_document_download:before {
+  content: "\e91d";
+}
+.icon-multimedia_like_hand_interface_finger_multimedia_like_hand_finger_finger_hand_like_multimedia_finger_hand_like_multimedia_hand_finger_multimedia_like:before {
+  content: "\e91e";
+}
+.icon-favorite_favorite_multimedia_favourite_star_interface_favorites_multimedia_favourite_star_favorites_multimedia_favourite_favorite_star_favorites_multimedia_favourite_star_favorites_favorite_favorite_multimedia_favorite_star_favorites_favouri:before {
+  content: "\e91f";
+}
+.icon-navigation_navigation_right_multimedia_arrow_multimedia_arrow_back_arrow_interface_navigation_right_multimedia_back_navigation_back_right_interface_arrow_navigation_right_multimedia_arrow_back_navigation_right_back_back_arrow_multimedia_mult:before {
+  content: "\e920";
+}
+.icon-interface_building_house_multimedia_construction_interface_building_house_home_multimedia_house_home_building_construction_multimedia_multimedia_construction_building_home_house_building_construction_multimedia_house_construction_home_buildi:before {
+  content: "\e921";
+}
+.icon-draw_design_draw_write_pencil_pen_pen_pencil_write_draw_design_pen_pencil_write_design_pen_pencil_write_draw_design_design_draw_write_pen_pencil_interface_multimedia:before {
+  content: "\e922";
+}
+.icon-social_speak_chat_media_multimedia_multimedia_social_speak_chat_media_social_chat_media_interface_speak_speak_chat_social_multimedia_media_media_chat_speak_social_multimedia_multimedia:before {
+  content: "\e923";
+}
+.icon-media_social_speak_chat_media_multimedia_social_speak_chat_media_multimedia_social_speak_chat_social_media_chat_speak_social_multimedia_multimedia_multimedia_speak_interface_media_chat:before {
+  content: "\e924";
+}
+.icon-users_team_group_users_multimedia_team_group_group_team_multimedia_multimedia_users_group_team_multimedia_users_users_group_interface_team_multimedia:before {
+  content: "\e925";
+}
+.icon-shop_basket_multimedia_shop_buy_market_shopping_store_store_shopping_market_buy_multimedia_basket_store_shopping_market_buy_shop_multimedia_basket_store_shopping_market_buy_shop_multimedia_basket_basket_market_shop_buy_shopping_store_multime:before {
+  content: "\e926";
+}
+.icon-heart_heart_multimedia_like_romance_interface_love_heart_like_love_multimedia_romance_heart_like_love_multimedia_romance_heart_like_love_multimedia_romance_romance_multimedia_love_like:before {
+  content: "\e927";
+}
+.icon-finger_multimedia_like_hand_interface_interaction_finger_hand_multimedia_like_interaction_multimedia_like_hand_interaction_finger_multimedia_like_hand_interaction_finger_finger_interaction_hand_like_multimedia:before {
+  content: "\e928";
+}
+.icon-multimedia_pointer_location_pin_multimedia_place_location_map_pointer_pin_place_location_map_pointer_pin_multimedia_place_location_map_pointer_pointer_map_location_place_multimedia_pin_map_interface_pin_place_multimedia:before {
+  content: "\e929";
+}
+.icon-pointer_place_location_map_pointer_pin_pin_multimedia_pointer_map_place_location_map_pointer_multimedia_pin_multimedia_place_pin_interface_map_pointer_location_pin_multimedia_location_place_multimedia_place_location_map:before {
+  content: "\e92a";
+}
+.icon-multimedia_multimedia_magnifier_search_interface_zoom_magnifying_zoom_search_magnifying_magnifier_interface_magnifier_search_multimedia_zoom_magnifying_magnifier_search_multimedia_zoom_magnifying_magnifier_search_multimedia_zoom_magnifying_m:before {
+  content: "\e92b";
+}
+.icon-multimedia_settings_gear_setting_setting_interface_options_gear_settings_multimedia_settings_gear_options_interface_setting_multimedia_gear_settings_setting_options_multimedia_multimedia_options_gear_settings_setting_multimedia_options_setti:before {
+  content: "\e92c";
+}
+.icon-avatar_avatar_account_multimedia_multimedia_avatar_profile_person_account_interface_user_user_multimedia_account_profile_interface_multimedia_profile_person_avatar_account_account_avatar_person_profile_multimedia_person_profile_user_person:before {
+  content: "\e92d";
+}
+.icon-navigation_arrow_back_multimedia_arrows_arrows_navigation_arrow_left_back_multimedia_arrow_navigation_arrows_multimedia_back_left_arrow_navigation_left_back_multimedia_arrows_navigation_arrow_left_back_multimedia_left_arrows_interface:before {
+  content: "\e92e";
+}
+.icon-navigation_navigation_interface_arrow_multimedia_forward_navigation_forward_arrow_right_multimedia_arrows_navigation_forward_arrow_right_multimedia_arrows_navigation_forward_arrow_right_multimedia_arrows_right_multimedia_arrows_right_arrow_a:before {
+  content: "\e92f";
+}
+.icon-letter_mail_multimedia_interface_communication_message_letter_communication_mail_multimedia_communication_mail_multimedia_letter_message_message_multimedia_mail_communication_message_letter_multimedia_mail_communication_message_letter:before {
+  content: "\e930";
+}
+.icon-phone_multimedia_communication_call_communication_call_cell_telephone_phone_phone_telephone_telephone_cell_call_communication_multimedia_telephone_interface_communication_cell_call_multimedia_phone_cell_cell_call_communication_multimedia_pho:before {
+  content: "\e931";
+}

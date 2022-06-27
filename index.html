@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio de Projeto</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--ICONS -->
+
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container show">
+        <a href="#" class="logo"><span>Desafio de Projeto</span></a>
+        <!--==== MENU ====-->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#about-git1">Introdução ao Git</a></li>
+            <li><a class="title" href="#about-git2">Instalação do Git</a></li>
+            <li><a class="title" href="#about-git3">Comandos Básicos</a></li>
+            <li><a class="title" href="#about-github1">Introdução ao Github</a></li>
+            <li><a class="title" href="#about-github2">Para que Serve o Github</a></li>
+          </ul>
+        </div> 
+        <!--==== MENU ====-->
+        <div class="toggle icon-media_menu_multimedia_bars_media_bars_media_interface_multimedia_menu_menu_media_bars_multimedia_menu_media_bars_multimedia_menu_multimedia_bars"></div>
+        <!--=== ABRIR MENU ====-->
+        <div class="toggle icon-cross_delite_error_multimedia_cross_cross_multimedia_error_delite_multimedia_cross_error_interface_delite_delite_error_multimedia_cross_delite_error_multimedia"></div>
+        <!--==== FECHAR MENU ====-->
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="about-git1">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="img/logo-git.png"
+              alt="logo-git"
+            />
+          </div>
+          <div class="text-1">
+            <h2 class="title">O que é o Git?</h2>
+            <p>Criado pelo engenheiro de software Linus Torvalds, conhecido por ter
+          desenvolvido, também, o núcleo Linux, o GIT é um Sistema de Controle de
+          Versões Distribuído — ou DVCS. Estes sistemas de controle possuem a função
+          de registrar quaisquer alterações feitas em cima de um código, armazenando
+          essas informações e permitindo que, caso seja necessário, um(a)
+          programador(a) possa regredir a versões anteriores de uma aplicação de
+          modo simples e rápido. Este tipo de sistema também simplifica muito o
+          processo de compartilhamento de um projeto com um time, por exemplo, ou
+          com outros(as) programadores(as).
+            </p>            
+          </div>
+          
+          <div class="text-2">
+            <h2 class="title" class="git2">Qual a vantagem de usar o Git?</h2>
+            <p>
+              Imagine que, há alguns meses, você desenvolveu um site que possuia
+              determinada função. Com o passar do tempo, essa função perdeu sua
+              utilidade e você foi instruído a retirá-la do código fonte deste site.
+              Após seis meses, por uma questão de estratégia de negócio, essa função
+              deve ser novamente implementada. Para programadores(as) que utilizam o
+              GIT, reincluir a funcionalidade é uma tarefa simples: basta buscar, em seu
+              repositório, a versão que a contempla e retomá-la. Para aqueles(as) que
+              não utilizam, talvez seja necessário reescrever o código desta função,
+              consumindo novamente o tempo gasto para desenvolvê-la da primeira vez.
+              Diante desta situação, podemos concluir que uma das maiores vantagens de
+              usar o GIT é a economia de tempo e recursos, uma vez que a consulta de
+              diferentes versões de uma mesma aplicação é muito recorrente no trabalho
+              do(a) programador(a). Outro grande benefício do GIT é justamente o fato de
+              ele ser um sistema distribuído. Isso significa que, diferentemente de
+              outros sistemas de controle de versionamento populares na época em que foi
+              lançado, o GIT possui repositórios, e não somente um único local com o
+              histórico de seu trabalho. Para auxiliar o trabalho em equipe, recursos
+              como o fluxo de desenvolvimento do Gitflow também trazem muitos
+              benefícios, inclusive porque pode ser acessado por qualquer membro do time
+              em qualquer lugar.</p>
+            </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="about-git2">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="img/git-windows.png"
+              alt="git-windows"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Instalação do Git no Windows</h2>
+            <p>No site oficial do Git (http://git-scm.com/) clique em “Downloads for Windows”.</p>
+            <img
+              src="img/passo-1.PNG"
+              alt="git-windows-passo-1"
+            />
+            <p>Execute o arquivo baixado e vá dando “Next” até a tela “Select Components”. Nesta tela eu escolho as opções como na imagem:</p>
+            <img
+            src="img/passo2.webp"
+            alt="git-windows-passo-2"
+          />
+            <p>Em especial eu marco as opções em “Windows Explorer integration”, assim eu consigo abrir o prompt de comandos do Git (Git Bash) em qualquer pasta, basta clicar com o botão direito e “Git Bash Here”. A última opção também é interessante, porque ele instala uma fonte melhorzinha para o prompt de comandos.
+
+              Nota: O Git para Windows vem com um prompt de comandos próprio (o Git Bash), que além dos comandos git também fornece alguns comandos Unix que podem ser bem úteis (além de ser bem mais bonitinho que o prompt de comandos padrão do Windows).
+              
+              Na próxima tela, eu escolho a opção: “Use Git from the Windows Command Prompt”.</p>
+            <img
+            src="img/passo-3.webp"
+            alt="git-windows-passo-3"
+          />
+            <p>Esta opção permite usar o comando git tanto no Git Bash quanto no terminal padrão do Windows.
+
+              A terceira adiciona comandos do Unix no terminal do Windows, além do próprio comando git, mas alguns comandos do Windows serão substituídos por comandos Unix que tem o mesmo nome (como find e sort).
+              
+              Outra configuração importante: quebra de linhas.</p>
+              <img
+              src="img/passo-4.webp"
+              alt="git-windows-passo-4"
+          />
+              <p>Como deve saber Windows e sistemas Unix (Linux, Mac) possuem formatos diferentes de quebra de linha em arquivos texto. Se você escreve um código com quebras de linha no formato Windows, outra pessoa pode ter problemas ao abrir o mesmo arquivo em um Linux, e vice-versa. Esta opção permite normalizar isso.
+
+                A primeira opção converte os arquivos para padrão Windows quando os arquivos chegam para você, e convertem para padrão Unix quando você os comita no repositório. A segunda não faz nenhuma conversão quando os arquivos chegam, mas convertem para padrão Unix quando você comita. Já a terceira opção não faz nenhuma conversão.
+                
+                Eu opto pela segunda, pois prefiro manter tudo no padrão Unix (já que qualquer bom editor de código consegue ler arquivos no padrão Unix mesmo estando em Windows).
+                
+                Feito isso, “Next”, “Finish” e o Git está instalado.</p>
+          </div>
+        </div>
+
+      <section class="section" id="about-git3">
+        <div class="container grid">Serviços</div>
+      </section> 
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
